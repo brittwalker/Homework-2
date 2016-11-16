@@ -67,6 +67,9 @@ body {
   height: 500px;
   padding-top: 20px;
 }
+p {
+  margin-top: 0px;
+}
 
 header {
   color: white;
@@ -184,6 +187,7 @@ h3 {
   top: 100%;
   text-align: center;
   font-size: 18px;
+  margin-top: 10px;
 }
 
 .testimonial {
@@ -222,7 +226,33 @@ footer {
   height: 180px;
   background-color: black;
   color: white;
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
 }
+
+.relaxrfoot {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+}
+
+.twitter {
+  width: 25px;
+  margin-right: 20px;
+}
+
+.fb {
+  max-width: 25px;
+  height: 25px;
+  margin-right: 12px;
+}
+.copyright {
+  margin-top: 35px;
+  font-size: 9px;
+  font-weight: 300;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
