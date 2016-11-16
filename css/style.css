@@ -12,7 +12,7 @@ Developer @GA in NYC
 
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box; /* Firexfox */
+     -moz-box-sizing: border-box; /* Firefox */
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
@@ -71,7 +71,7 @@ body {
 header {
   color: white;
   width: 80%;
-  height: 400px;
+  height: 350px;
   margin: 0 auto;
 }
 
@@ -102,7 +102,7 @@ h2 {
   padding: 5px;
 }
 
-.Benefits {
+.benefits {
   background-color: #f0efef;
   height: 300px;
   width: 100%;
@@ -155,12 +155,73 @@ h3 {
 #secbutton {
   position: absolute;
   display: inline-block;
-  top: 50%; left: 50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%,-50%);
 }
 
-footer {
+.featuresec {
+  background-color: #f9e42e;
+  height: 250px;
+  text-align: center;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+}
 
+.feature {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 40px;
+  margin-top: 50px;
+  background-color: #387AC6;
+  position: relative;
+}
+
+.feature p {
+  position: relative;
+  top: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.testimonial {
+  color: white;
+  height: 160px;
+  background-image: url("../images/testimonial_bg.jpg");
+  position: relative;
+  text-align: center;
+}
+
+.testquote {
+  display: inline-block;
+  margin-top: 40px;
+  width: 200px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.byline  {
+  margin-top: -10px;
+}
+
+.signupsec {
+  background-color: #f9e42e;
+  height: 65px;
+  position: relative;
+  padding-top: 18px;
+}
+
+#signbutton {
+  background-color:#033048;
+  color: white;
+}
+
+footer {
+  height: 180px;
+  background-color: black;
+  color: white;
 }
 
 /******************************************
