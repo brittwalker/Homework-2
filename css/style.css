@@ -130,7 +130,6 @@ h3 {
   font-weight: 600;
   font-size: 20px;
   color: #033048;
-  display: inline-block;
   margin-top: 40px;
   margin-bottom: 0px;
 }
@@ -138,8 +137,6 @@ h3 {
 .bentext p {
   font-weight: 300;
   font-size: 11px;
-  display: inline-block;
-  position: relative;
 }
 
 .bentext li {
