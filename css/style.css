@@ -112,6 +112,7 @@ h2 {
   margin: 0 auto;
   display: inline-block;
   vertical-align: top;
+  position: relative;
 }
 
 .bencontainer {
@@ -123,7 +124,7 @@ h2 {
 .bentext {
   width:300px;
   height: 100%;
-  display: inline-block;
+  /*display: inline-block;*/
   margin-right: 20px;
   float: left;
   padding-right: 10px;
@@ -155,6 +156,10 @@ h3 {
   position: relative;
 }
 
+.clear {
+  clear: both;
+}
+
 #secbutton {
   position: absolute;
   display: inline-block;
@@ -166,8 +171,9 @@ h3 {
 .featuresec {
   background-color: #f9e42e;
   height: 250px;
+  width: 100%;
   text-align: center;
-  position: relative;
+  /*position: relative;*/
   white-space: nowrap;
   overflow: hidden;
 }
@@ -179,7 +185,7 @@ h3 {
   margin: 40px;
   margin-top: 50px;
   background-color: #387AC6;
-  position: relative;
+  /*position: relative;*/
 }
 
 .feature p {
@@ -194,7 +200,7 @@ h3 {
   color: white;
   height: 160px;
   background-image: url("../images/testimonial_bg.jpg");
-  position: relative;
+  /*position: relative;*/
   text-align: center;
 }
 
@@ -213,7 +219,7 @@ h3 {
 .signupsec {
   background-color: #f9e42e;
   height: 65px;
-  position: relative;
+  /*position: relative;*/
   padding-top: 18px;
 }
 
@@ -226,7 +232,7 @@ footer {
   height: 180px;
   background-color: black;
   color: white;
-  position: relative;
+  /*position: relative;*/
   text-align: center;
   padding-top: 20px;
 }
