@@ -37,9 +37,9 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: 100% auto;
-  margin: 0px;
+  background: url(../images/header_bg.jpg) no-repeat #6D7582;
+  background-size: 2000px 600px;
+  background-position: -300px -100px;
 }
 
 p {
