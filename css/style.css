@@ -244,13 +244,13 @@ footer {
 
 .twitter {
   width: 25px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .fb {
   max-width: 25px;
-  height: 25px;
-  margin-right: 12px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 .copyright {
@@ -258,3 +258,5 @@ footer {
   font-size: 9px;
   font-weight: 300;
 }
+
+/* End styles */
