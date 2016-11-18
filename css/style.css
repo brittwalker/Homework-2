@@ -17,7 +17,7 @@ Developer @GA in WashDC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack
+/*Clear fix hack*/
 .clearfix:after {
      content: ".";
      display: block;
@@ -25,7 +25,7 @@ Developer @GA in WashDC
      visibility: hidden;
      line-height: 0;
      height: 0;
-}*/
+}
 
 
 /******************************************
@@ -38,10 +38,21 @@ body {
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
+  background-size: contain;
   margin: 0px;
 }
 
+p {
+  margin-top: 0px;
+}
+
+div {
+  margin: 0px;
+}
+
+section {
+  margin: 0px;
+}
 
 /******************************************
 /* LAYOUT
@@ -95,7 +106,7 @@ h2 {
   background-color: #f0efef;
   height: 300px;
   width: 100%;
-  display: inline-block;
+  overflow: hidden;
 }
 
 .bencontainer {
@@ -140,7 +151,12 @@ h3 {
 }
 
 .clear {
+  content: ".";
+  display: block;
   clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 #secbutton {
@@ -159,6 +175,7 @@ h3 {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
+  /*position: relative;*/
 }
 
 .feature {
