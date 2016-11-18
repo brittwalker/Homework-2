@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr
+Client: Relaxr
+Author: Brittany Walker
+Developer @GA in WashDC
 */
 
 
@@ -17,7 +17,7 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
+/* Clear fix hack
 .clearfix:after {
      content: ".";
      display: block;
@@ -25,21 +25,8 @@ Developer @GA in NYC
      visibility: hidden;
      line-height: 0;
      height: 0;
-}
+}*/
 
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
 
 /******************************************
 /* BASE STYLES
@@ -49,7 +36,7 @@ body {
   color: #000;
   font-size: 12px;
   line-height: 1.4;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
   margin: 0px;
@@ -64,13 +51,11 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  /*height: 500px;*/
   padding-top: 20px;
 }
-p {
-  margin-top: 0px;
-}
 
+/* Header styles */
 header {
   color: white;
   width: 80%;
@@ -105,14 +90,12 @@ h2 {
   padding: 5px;
 }
 
+/* Benefits styles */
 .benefits {
   background-color: #f0efef;
   height: 300px;
   width: 100%;
-  margin: 0 auto;
   display: inline-block;
-  vertical-align: top;
-  position: relative;
 }
 
 .bencontainer {
@@ -124,7 +107,6 @@ h2 {
 .bentext {
   width:300px;
   height: 100%;
-  /*display: inline-block;*/
   margin-right: 20px;
   float: left;
   padding-right: 10px;
@@ -149,6 +131,7 @@ h3 {
   font-weight: 300;
 }
 
+/*lol*/
 .benbutton {
   width: 130px;
   height: 100%;
@@ -168,12 +151,12 @@ h3 {
   transform: translate(-50%,-50%);
 }
 
+/* Feature styles*/
 .featuresec {
   background-color: #f9e42e;
   height: 250px;
   width: 100%;
   text-align: center;
-  /*position: relative;*/
   white-space: nowrap;
   overflow: hidden;
 }
@@ -185,7 +168,6 @@ h3 {
   margin: 40px;
   margin-top: 50px;
   background-color: #387AC6;
-  /*position: relative;*/
 }
 
 .feature p {
@@ -196,11 +178,11 @@ h3 {
   margin-top: 10px;
 }
 
+/* Testimonial styles */
 .testimonial {
   color: white;
   height: 160px;
   background-image: url("../images/testimonial_bg.jpg");
-  /*position: relative;*/
   text-align: center;
 }
 
@@ -216,10 +198,10 @@ h3 {
   margin-top: -10px;
 }
 
+/* Signup styles*/
 .signupsec {
   background-color: #f9e42e;
   height: 65px;
-  /*position: relative;*/
   padding-top: 18px;
 }
 
@@ -228,11 +210,11 @@ h3 {
   color: white;
 }
 
+/* Footer styles*/
 footer {
   height: 180px;
   background-color: black;
   color: white;
-  /*position: relative;*/
   text-align: center;
   padding-top: 20px;
 }
@@ -253,13 +235,9 @@ footer {
   height: 25px;
   margin-right: 12px;
 }
+
 .copyright {
   margin-top: 35px;
   font-size: 9px;
   font-weight: 300;
 }
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
